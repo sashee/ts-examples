@@ -1,3 +1,4 @@
+/*
 {
 	const f = (p: string) => {
 		const o = {
@@ -6,6 +7,7 @@
 		console.log(o[p]); // Error
 	}
 }
+*/
 
 {
 	const f = (p: string) => {
