@@ -3,7 +3,6 @@ import lodash from "lodash";
 
 {
 	const v = underscore.object(underscore.pairs({a: "a"})) // {}
-	//noChain.a; // Error
 }
 
 {
