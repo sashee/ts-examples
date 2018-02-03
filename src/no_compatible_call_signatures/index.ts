@@ -1,10 +1,10 @@
 {
 	class C1 {
-		public f: (params: { a: string }) => {
+		public f(params: { a: string }) {
 		}
 	}
 	class C2 {
-		public f: (params: { b: string }) => {
+		public f(params: { b: string }) {
 		}
 	}
 
@@ -18,11 +18,11 @@
 		f: (params: {a: string} & {b: string}) => void;
 	}
 	class C1 implements C {
-		public f: (params: { a: string }) => {
+		public f(params: { a: string }) {
 		}
 	}
 	class C2 implements C {
-		public f: (params: { b: string }) => {
+		public f(params: { b: string }) {
 		}
 	}
 
